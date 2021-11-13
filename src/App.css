@@ -1,0 +1,96 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #ffffff;
+  color: #ffffff;
+}
+span {
+  color: chocolate;
+}
+h1 {
+  color: #585858;
+}
+.movie-app > .row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  /* flex-wrap: wrap; */
+  margin: 5px 50px;
+}
+
+.image-container {
+  position: relative;
+  transition: transform 0.2s;
+  border-radius: 30px;
+}
+
+.image-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  border-radius: 30px;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+  border-radius: 30px;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* ------------------------------------------------------------------------ */
+
+.textlist {
+  color: #141414;
+}
+
+.discount {
+  color: rgb(252, 36, 36);
+}
+
+.imagepay {
+  width: 80%;
+  margin: 5px 50px;
+}
+
+.timeout {
+  text-align: center;
+  color: #141414;
+}
+
+.bynpay {
+  margin: 10px 2%;
+  padding: 16px 3%;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  background: #f49740;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.btndeleteall {
+  margin: 10px 1%;
+  padding: 16px 3%;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  background: #585858;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.imagelist {
+  border-radius: 30px;
+}
