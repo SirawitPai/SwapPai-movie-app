@@ -1,13 +1,15 @@
-# react-movie-app
-SwapPai Movies App
+# SwapPai Movies App
 
-npm install
 
-npm i bootstrap@4.6.1
+*You can try using **SwapPai Movies App** to test add to cart. By selecting the movie you like or if you can't find the movie you like, you can type the name of the movie in the search box. on the right-hand side at the top. Have fun.*
 
-npm i react-bootstrap
+> npm install
 
-npm start
+> npm i bootstrap@4.6.1
+
+> npm i react-bootstrap
+
+> npm start
 
 ![1636819027756](https://user-images.githubusercontent.com/71228820/141650495-c2a3a308-cb57-40a2-8924-48530eaed05c.jpg)
 
